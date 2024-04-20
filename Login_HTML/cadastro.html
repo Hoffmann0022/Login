@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../Login_CSS/style_cadastro.css">
+    <link rel="icon" href="../Login_IMG/lua.png">
+    <script src="../Login_JS/Login.js" type="text/javascript" defer></script> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="main">
+        <img id="background" src="../Login/Login_IMG/lua_background.png">
+        <div class="cadastro">
+            <h1>Cadastro</h1>
+            <form action="../Login_HTML/obrigado.html"  method="post">
+                <label>Nome completo: </label><input type="text" name="text" placeholder="   Nome completo" value="" required>
+                <label>Telefone: </label><input type="number" name="telefone" placeholder="   Telefone" value="" required>
+                <label>Data de nascimento: </label><input type="date" name="data" placeholder="   Data de nascimento" value="" required>
+                <label>E-mail: </label><input type="email" name="email" placeholder="   E-mail" value="" required>
+                <label>Senha: </label><input type="password" name="senha" placeholder="   Senha" value="" required>
+                <label>Confirme a senha: </label><input type="password" name="senha" placeholder="   Confirmar senha" value="" required>
+                <button type="submit" id="botao">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
