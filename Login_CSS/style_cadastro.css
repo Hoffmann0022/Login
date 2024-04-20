@@ -65,12 +65,15 @@ input{
     width: 300px;
     margin: 10px 15px;
     border: none;
-    background-color: rgba(33, 0, 124, 0.644);
+    background-color: rgba(15, 135, 233, 0.541);
     border-radius: 50px;
     font-size: large;
     padding: 0px 15px;
     transition: 500ms;
-    color: gray;
+}
+
+input:hover{
+    background-color:rgb(29, 138, 240) ;
 }
 
 input[type=number]::-webkit-inner-spin-button { 
@@ -96,7 +99,7 @@ button{
     width: 250px;
     font-size:19px;
     border: none;
-    background-color: rgba(51, 2, 185, 0.651);
+    background-color: rgb(5, 110, 196);
     border-radius: 50px;
     cursor: pointer;
     transition: 500ms;
@@ -104,7 +107,7 @@ button{
 }
 
 button:hover{
-    background-color:rgb(104, 48, 235);
+    background-color:rgb(29, 138, 240);
     transform: scale(107%);
 }
 
